@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background: #eee;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header .title {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header .nav-link {
+    padding: 20px;
+    margin: 20px auto;
+}
