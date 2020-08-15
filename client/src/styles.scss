@@ -45,6 +45,7 @@ body,
       display: flex;
       justify-content: space-between;
       width: 100%;
+      margin: 12px auto;
     }
   }
 }
@@ -131,11 +132,16 @@ form {
     background: #727453;
     color: #fff;
     animation-name: login;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
   }
 
-  @keyframes example {
-    from {background-color: #727453;}
-    to {background-color:#029726;}
+  @keyframes login {
+    0% {background-color: #CDEB8B;}
+    20% {background-color:#C3D9FF;}
+    40% {background-color:#FF1A00;}
+    60% {background-color:#FF7400;}
+    80% {background-color:#006E2E;}
+    100% {background-color:#CDEB8B;}
   }
 }
