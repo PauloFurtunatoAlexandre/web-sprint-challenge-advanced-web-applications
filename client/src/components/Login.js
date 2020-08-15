@@ -28,7 +28,7 @@ const Login = () => {
       .then((res) => {
         console.log(res);
         window.localStorage.setItem("token", res.data.payload);
-        history.push('/colors')
+        history.push('/BubblePage')
       })
       .catch((err) => console.error("Could not login: ", err.message));
   };
@@ -51,7 +51,7 @@ const Login = () => {
           placeholder="Password"
           onChange={handleChange}
         />
-        <button>Login</button>
+        <button className="login-btn">Login</button>
       </form>
     </>
   );

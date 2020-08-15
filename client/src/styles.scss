@@ -98,3 +98,44 @@ form {
     margin-top: 16px;
   }
 }
+
+form {
+  border: 1px solid #333;
+  margin: 20px auto;
+  padding: 40px;
+  height: 100px;
+
+  input {
+    width: 300px;
+    margin-bottom: 20px;
+    background: #eee !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid #345;
+  }
+
+  .login-btn {
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #727453;
+    color: #fff;
+    animation-name: login;
+    animation-duration: 4s;
+  }
+
+  @keyframes example {
+    from {background-color: #727453;}
+    to {background-color:#029726;}
+  }
+}
